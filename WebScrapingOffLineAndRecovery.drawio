@@ -1,9 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T18:58:24.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="F1nuuOuYhLdiuS17yxDx" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T23:13:25.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qrRtA8w5DvUfc8j-hMom" version="23.0.2" type="github">
   <diagram name="Page-1" id="wsHLDZuoHZw1MzJ2-pT4">
-    <mxGraphModel dx="1120" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="771" dy="299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-1" value="&lt;b&gt;WebScraping OffLine And Recovery&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-2" value="&lt;b&gt;Pregunta del Negocio - HU517:&lt;/b&gt; Qué&amp;nbsp; sucede cuando el proceso de webscraping deja de ejecutarse ya sea por:&lt;br&gt;1.&amp;nbsp; &lt;b&gt;Indisponibilidad en las páginas del SECOP:&lt;/b&gt; Cuando se cae es para subida de procesos por el oferente y por parte de publicación para los interesados.&lt;br&gt;2. &lt;b&gt;Indisponibilidad en los Scripts o Infraestructura al lado de la Previsora: &lt;/b&gt;El Script tiene la opción para realizar ejecuciones&lt;b&gt;&amp;nbsp;&lt;/b&gt;después de cada indisponibilidad cada&amp;nbsp; dos minutos acceder&amp;nbsp; a URL, pero siempre tendrá la limitante de poder consultar los últimos 18 procesos después del restablecimiento. Por lo anterior,&amp;nbsp; el Negocio tendrá que relizar las consultas de manera manual en ese periodo de indisponibilidad, se puede mitigar este tema con infraestructura de respaldo.&lt;br&gt;&lt;br&gt;Más preciso en la explicación el proceso de WebScraping retomaría los procesos que en el periodo que no estuvo operativo en los dos casos ?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="40" width="1040" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="360" as="sourcePoint" />
+            <mxPoint x="120" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-33" value="T0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-34" value="FInicial , Fdesde - F Hasta, Codigo UNSPSC Procesos licitarios en tabla BD -&amp;nbsp; Parametros" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-35" value="Aplicativo&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-36" value="Interfaz web- Front" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="395" as="sourcePoint" />
+            <mxPoint x="580" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-38" value="Modelo IA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-39" value="www SECOP1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-40" value="BD SECOP&lt;br&gt;Procesos Extraídos&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-41" value="www SECOP2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Vb6KlBlZpgiBq4A07aD-39" target="1Vb6KlBlZpgiBq4A07aD-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Vb6KlBlZpgiBq4A07aD-41" target="1Vb6KlBlZpgiBq4A07aD-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="510" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.617;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Vb6KlBlZpgiBq4A07aD-38" target="1Vb6KlBlZpgiBq4A07aD-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.417;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Vb6KlBlZpgiBq4A07aD-36" target="1Vb6KlBlZpgiBq4A07aD-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="290" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-46" value="Se envian todos los procesos con todos sus estados&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-47" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-48" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-49" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-50" value="La clasificación del modelo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-51" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=standard;symbol=timer;" vertex="1" parent="1">
+          <mxGeometry x="85" y="175" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-52" value="Option&amp;nbsp;&lt;br&gt;2- 15 min" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-53" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-54" value="Star Webscraping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-55" value="Procesos Extraidos&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="355" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-56" value="T1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-57" value="T2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-59" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.017;exitY=-0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85.00000000000001" y="360" as="sourcePoint" />
+            <mxPoint x="626.02" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-60" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;FInicial , Fdesde - F Hasta:&lt;/b&gt;&lt;br&gt;Estos datos fueron solictados como paramtrizables en la BD y con eso se pretendia que se puediera correr el Proceso Webscarping bajo demanda y para cubrir los tiempos de indisponibilidad que se pudieran presentar por causa indiponbilidad de SECOP o Por La Previsora.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Solución Actual:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400; background-color: rgb(207, 226, 243);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;Bajo el nueva lógica de configuración de ejecución del webscraping de extracción cada 15 minutos con duracción por extracción de 3 minutos y la restricción de SECOP1 15  procesos&amp;nbsp; y SECOP 2&amp;nbsp; 18 Proceso en cada conexión y teniendo encuenta que solo trae el diferencial de los procesos entre conexiónes y la ejecución recurrente .Por lo anterior, no aplica la Fecha de Inicio y Fecha desde y Hasta. Nota el negocio preguntó cómo sería el comportamiento del Webscrpring frente a indisponibilidades por parte del SECOP o la Solución La Previsora?&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; font-size: 12px; font-family: Helvetica;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Vb6KlBlZpgiBq4A07aD-61" value="&lt;b&gt;Respuesta duda del Negocio:&lt;/b&gt;&lt;br&gt;SECOP I y SECOP II, la continuidad y precisión en el registro de datos está asegurada a pesar de posibles interrupciones o caídas en la operatividad del sistema. Este sistema tiene un umbral de tolerancia a fallas bien definido y un mecanismo de respaldo robusto.&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tolerancia a Interrupciones: El sistema puede permanecer inactivo por un máximo de 4 minutos, usualmente solo por 2 minutos. Durante este periodo, si se publican procesos en SECOP I y el sistema no puede acceder a ellos, se mantiene en paralelo un mecanismo de respaldo que extrae datos de SECOP II, y viceversa.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Capacidad de Registro: La clave del sistema no es el tiempo, sino la cantidad de procesos que puede registrar. Puede procesar hasta 18 procesos cada 2 minutos. Si en un lapso de 2 minutos se publican más de 18 procesos, el sistema no podrá registrar los excedentes. Esto aplica igualmente si SECOP I o II están caídos; al reactivarse, el sistema seguirá esta misma regla.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Respaldo y Validación Cruzada: El sistema cuenta con una validación cruzada entre SECOP I y SECOP II. Aunque uno de los dos esté inoperativo, el otro actúa como respaldo, asegurando la captura de datos. Es poco probable que ambos sistemas fallen simultáneamente, lo que garantiza una continuidad en el registro de eventos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Registro por Eventos: El sistema opera basado en un proceso de registro por eventos, donde lo crucial es el evento (publicación de procesos) y no el tiempo. Incluso si el sistema se detiene por un periodo prolongado, al reanudar su funcionamiento, capturará los primeros 18 procesos publicados cada dos minutos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Acuerdo de Nivel de Servicio (SLA): Este sistema se rige por un SLA que define el nivel de tolerancia a fallas. Aunque ningún SLA puede garantizar un 100% de eficiencia, este sistema ha demostrado un alto grado de fiabilidad. Incluso con la caída de SECOP I, los procesos de SECOP II se han registrado normalmente, manteniendo la integridad de los datos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Plataformas Espejo SECOP I y II: Ambas plataformas funcionan como espejos una de la otra, lo que significa que un proceso publicado en una usualmente se refleja en la otra. Esto fortalece la confiabilidad del sistema, ya que minimiza la probabilidad de perder registros importantes.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;En resumen, el sistema de webscraping sobre SECOP I y II está diseñado para asegurar la máxima recopilación de datos con un alto nivel de fiabilidad, a pesar de las limitaciones inherentes en cualquier sistema tecnológico.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="860" width="580" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
